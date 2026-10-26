@@ -440,13 +440,13 @@ footer.fuss p { margin: .2rem 0; }
 .tasse .dampf { animation: dampf 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center bottom; }
 .tasse .dampf:nth-of-type(2) { animation-delay: .7s; } .tasse .dampf:nth-of-type(3) { animation-delay: 1.4s; }
 @keyframes dampf { 0% { opacity: 0; transform: translateY(4px); } 40% { opacity: .9; } 100% { opacity: 0; transform: translateY(-6px); } }
-/* Grafik: Pizza von oben, dreht sich langsam (gezeichnet, kein Foto) */
+/* Grafik: Pizza von oben, dreht sich langsam (gezeichnet, kein Foto) – feste Speisefarben, unabhängig von der Farbwelt */
 .pizza { width: min(260px, 60vw); height: auto; color: var(--text); overflow: visible; }
 .pizza-dreh { transform-origin: 100px 100px; animation: pizza-dreh 60s linear infinite; }
 .pz-rand { fill: color-mix(in srgb, #e9b871 70%, var(--bg)); stroke: currentColor; stroke-width: 4; }
-.pz-sosse { fill: color-mix(in srgb, var(--accent) 22%, #f6d48f); stroke: currentColor; stroke-width: 1.6; }
+.pz-sosse { fill: color-mix(in srgb, #d8452b 22%, #f6d48f); stroke: currentColor; stroke-width: 1.6; }
 .pz-schnitt { fill: none; stroke: currentColor; stroke-width: 1.4; stroke-dasharray: 2 5; stroke-linecap: round; opacity: .55; }
-.pz-salami circle { fill: var(--accent); stroke: currentColor; stroke-width: 1.8; }
+.pz-salami circle { fill: #c8372d; stroke: currentColor; stroke-width: 1.8; }
 .pz-punkte circle { fill: #fff; opacity: .75; }
 .pz-pilz path { fill: #f4ead8; stroke: currentColor; stroke-width: 1.5; stroke-linejoin: round; }
 .pz-olive circle { fill: none; stroke: currentColor; stroke-width: 2.6; }
